@@ -1,0 +1,212 @@
+$primary-color: #6b5f5b;
+$secondary-color: #efdcd5;
+$trimary-color: #8c7b75;
+$white: #fff;
+$largefs: 30px;
+$mediumfs: 25px;
+$smallfs: 20px;
+$ff: Montserrat,
+sans-serif;
+
+
+/* navigation */
+
+body {
+    background: $secondary-color;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: $trimary-color;
+    z-index: 9999;
+    border: 0;
+    font-size: $smallfs !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: $ff;
+    height: 100px;
+}
+
+.navbar-logo {
+    color: $white;
+    padding: 30px;
+
+}
+
+.navbar-toggle {
+    background-color: $white;
+}
+
+.collapse {
+    background-color: $trimary-color;
+}
+
+.navbar-brand {
+    font-size: $smallfs;
+
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: $white !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: $trimary-color !important;
+    background-color: $white !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: $white;
+    color: $secondary-color !important;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(../images/mainimage.jpg);
+    height: 900px;
+}
+
+.main {
+    h1 {
+        margin-top: 300px;
+        color: $primary-color;
+    }
+}
+
+
+
+.main {
+    p {
+        font-size: $largefs;
+        font-weight: 500;
+        color: $primary-color;
+
+    }
+}
+
+/* Para */
+
+.intro {
+    h2 {
+        color: $primary-color;
+        margin: 40px;
+        padding: 10px;
+        text-align: center;
+        font-family: $ff bold;
+    }
+}
+
+/* 3 Projects */
+
+.projects {
+    h1 {
+        color: $primary-color;
+        margin: 40px;
+        text-align: center;
+        font-family: $ff bold;
+        letter-spacing: 4px;
+
+    }
+
+}
+
+.panel-footer {
+    color: $primary-color;
+    text-align: center;
+    background-color: $white;
+    letter-spacing: 4px;
+    font-size: $smallfs;
+}
+
+.col-sm-4 {
+    h3 {
+        color: $primary-color;
+        text-align: center;
+        font-size: $smallfs;
+        padding: 20px;
+    }
+}
+
+/* About */
+
+.bg-grey {
+    background-color: #f8f8f8;
+}
+
+.col-sm-8 {
+    h2 {
+        color: $primary-color;
+        padding-top: 100px;
+        padding-left: 40px;
+        font-size: $largefs;
+    }
+
+    h5 {
+        color: $trimary-color;
+        font-size: $smallfs;
+        margin-left: 30px;
+        padding-right: 20px;
+        padding: 10px;
+
+    }
+}
+
+/* photography */
+
+.white {
+    background-color: $white;
+}
+
+/*contact */
+
+.row {
+    padding-top: 20px;
+}
+
+.well {
+    background-color: $white;
+    padding: 30px;
+}
+
+.well {
+    h2 {
+        color: $primary-color;
+        text-align: center;
+        font-size: $largefs;
+    }
+    p {
+        color: $primary-color;
+        text-align: center;
+        font-size: $mediumfs bold;
+    }
+    h4 {
+        color: $primary-color;
+        text-align: center;
+        font-size: $smallfs;
+    }
+}
+
+.form-control {
+    background-color: #f2f2f2;
+    border-color: transparent;
+}
+
+.btn {
+    background-color: $secondary-color;
+    border-color: transparent;
+    box-shadow: 1px 5px 3px #e2baba;
+    width: 150px;
+}
+
+/* footer */
+
+.brown {
+    background-color: $trimary-color;
+    height: 100px;
+    color: $white;
+    padding-top: 20px;
+}
